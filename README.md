@@ -10,6 +10,15 @@ Start a local server at localhost:4000:
 $ jekyll serve
 ```
 
+# Publishing site
+
+```
+$ ./build gh-pages
+$ git commit -a -m "..."
+$ git push origin gh-pages
+$ git checkout sitesrc
+```
+
 For more details read about [Jekyll][1] on its web page.
 
 
