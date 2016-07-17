@@ -238,6 +238,11 @@ a {
   text-align:center;
   font-weight: bold; }
 
+.site-footer-power {
+  display: block;
+  font-size: 0.6rem;
+  text-align:center;}
+
 .site-footer-credits {
   color: #819198; }
 
