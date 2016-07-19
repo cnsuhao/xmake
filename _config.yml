@@ -8,7 +8,7 @@ paginate:     1
 # About/contact
 author:
   name:       waruqi
-  url:        http://tboox.org 
+  url:        http://www.tboox.org 
 
 #Others
 markdown: kramdown
