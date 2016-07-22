@@ -14,6 +14,23 @@ xmake项目属于个人开源项目，它的发展需要您的帮助，如果您
 * 更多的插件开发
 * 自动生成vs, xcode等工程文件
 
+{% if site.amazon_ads_cn %}
+## 书店
+
+买几本书支持下我们：<a target="_blank"  href="http://www.amazon.cn/b?_encoding=UTF8&camp=536&creative=3200&linkCode=ur2&node=658414051&tag={{site.amazon_ads_cn}}">去逛逛</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t={{site.amazon_ads_cn}}&l=ur2&o=28" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+{% endif %}
+
+## 支付宝
+
+<img src="{{site.baseurl}}/img/alipay.png" alt="alipay" width="256" height="256">
+
+账号：waruqi@gmail.com
+
+## 微信 
+
+<img src="{{site.baseurl}}/img/weixin.png" alt="weixin" width="218" height="218">
+
 ## Paypal
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -36,17 +53,6 @@ xmake项目属于个人开源项目，它的发展需要您的帮助，如果您
 <input type="image" src="{{site.baseurl}}/img/donate.gif" border="0" name="submit" alt="PayPal——最安全便捷的在线支付方式！">
 <img alt="" border="0" src="https://www.paypalobjects.com/zh_XC/i/scr/pixel.gif" width="1" height="1">
 </form>
-
-
-## 支付宝
-
-<img src="{{site.baseurl}}/img/alipay.png" alt="alipay" width="256" height="256">
-
-账号：waruqi@gmail.com
-
-## 微信 
-
-<img src="{{site.baseurl}}/img/weixin.png" alt="weixin" width="218" height="218">
 
 ## 捐助者名单
 

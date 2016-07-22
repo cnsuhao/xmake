@@ -5,6 +5,10 @@ tagline_cn:   一个基于Lua的轻量级自动构建工具
 baseurl:      ""
 paginate:     1
 
+# ads
+amazon_ads_cn: tboox01-23
+amazon_ads_en: tboox-20
+
 # About/contact
 author:
   name:       waruqi
