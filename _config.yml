@@ -1,9 +1,9 @@
 # Setup
-projectname:  xmake
 title:        xmake
-title-cn:     xmake
 tagline:      A make-like build utility based on Lua
-tagline_cn:   一个基于Lua的轻量级自动构建工具
+tagline-cn:   一个基于Lua的轻量级自动构建工具
+keywords:     make,makefile,build,lua,cross-compile,linux
+keywords-cn:  make,makefile,构建工具,编译工具,lua,跨平台,跨平台开发,linux,交叉编译
 baseurl:      ""
 paginate:     1
 
