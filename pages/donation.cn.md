@@ -14,12 +14,9 @@ xmake项目属于个人开源项目，它的发展需要您的帮助，如果您
 * 更多的插件开发
 * 自动生成vs, xcode等工程文件
 
-{% if site.amazon_ads_cn %}
-## 书店
+## 书柜
 
-买几本书支持下我们：<a target="_blank"  href="http://www.amazon.cn/b?_encoding=UTF8&camp=536&creative=3200&linkCode=ur2&node=658414051&tag={{site.amazon_ads_cn}}">去逛逛</a><img src="http://ir-cn.amazon-adsystem.com/e/ir?t={{site.amazon_ads_cn}}&l=ur2&o=28" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-
-{% endif %}
+买几本书支持下我们：[去逛逛](http://www.tboox.org/cn/book)
 
 ## 支付宝
 

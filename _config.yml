@@ -7,10 +7,6 @@ keywords-cn:  make,makefile,构建工具,编译工具,lua,跨平台,跨平台开
 baseurl:      ""
 paginate:     1
 
-# ads
-amazon_ads_cn: tboox01-23
-amazon_ads_en: tboox-20
-
 # About/contact
 author:
   name:       waruqi
