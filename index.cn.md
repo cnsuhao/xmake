@@ -5,17 +5,23 @@ title: {{ site.name }}
 
 ## 简单的工程描述
 
+```lua
     target("console")
         set_kind("binary")
         add_files("src/*.c") 
+```
 
 ## 构建工程
 
-    xmake
+```bash
+   $ xmake
+```
 
 ## 运行目标
 
-    xmake run console
+```bash
+   $ xmake run console
+```
 
 ## 支持特性
 
@@ -43,9 +49,15 @@ title: {{ site.name }}
 * Swift
 * Assembly
 
+## 内置插件
+
+* 宏记录脚本和回放插件
+* 加载自定义lua脚本插件
+* 生成IDE工程文件插件（makefile, vs2002 - vs2008, vs2010以上版本正在开发中）
+* 生成doxygen文档插件
+
 ## 后续计划
 
 * 自动包依赖管理和下载
 * 创建移植仓库，实现`一人移植，多人共享`, 并且实现对其他开源项目进行自动化移植
 * 更多的插件开发
-* 自动生成vs, xcode等工程文件

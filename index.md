@@ -5,17 +5,23 @@ title: {{ site.name }}
 
 ## Simple description
 
+```lua
     target("console")
         set_kind("binary")
         add_files("src/*.c") 
+```
 
 ## Build project
 
-    xmake
+```bash
+   $ xmake
+```
 
 ## Run target
 
-    xmake run console
+```bash
+   $ xmake run console
+```
 
 ## Support features
 
@@ -43,11 +49,17 @@ title: {{ site.name }}
 * Swift
 * Assembly
 
+## Builtin Plugins
+
+* Macros script plugin
+* Run the custom lua script plugin
+* Generate IDE project file plugin（makefile, vs2002 - vs2008, developing vs2010 .. ）
+* Generate doxygen document plugin
+
 ## In the plans
 
 * Manage package and dependencies
 * Download package automatically
 * Create package repository for porting other third-party source codes, it's goal is that one people port it and many people shared.
 * Implement more plugins
-* Create more project files for IDE (.e.g vs, xcode ..)
 
