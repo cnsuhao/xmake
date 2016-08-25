@@ -51,21 +51,21 @@
       
       <h2 id="section">简单的工程描述</h2>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>target("console")
-    set_kind("binary")
-    add_files("src/*.c") 
+<div class="language-lua highlighter-rouge"><pre class="highlight"><code>    <span class="n">target</span><span class="p">(</span><span class="s2">"console"</span><span class="p">)</span>
+        <span class="n">set_kind</span><span class="p">(</span><span class="s2">"binary"</span><span class="p">)</span>
+        <span class="n">add_files</span><span class="p">(</span><span class="s2">"src/*.c"</span><span class="p">)</span> 
 </code></pre>
 </div>
 
 <h2 id="section-1">构建工程</h2>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>xmake
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>   <span class="nv">$ </span>xmake
 </code></pre>
 </div>
 
 <h2 id="section-2">运行目标</h2>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>xmake run console
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>   <span class="nv">$ </span>xmake run console
 </code></pre>
 </div>
 
@@ -101,13 +101,21 @@
   <li>Assembly</li>
 </ul>
 
-<h2 id="section-6">后续计划</h2>
+<h2 id="section-6">内置插件</h2>
+
+<ul>
+  <li>宏记录脚本和回放插件</li>
+  <li>加载自定义lua脚本插件</li>
+  <li>生成IDE工程文件插件（makefile, vs2002 - vs2008, vs2010以上版本正在开发中）</li>
+  <li>生成doxygen文档插件</li>
+</ul>
+
+<h2 id="section-7">后续计划</h2>
 
 <ul>
   <li>自动包依赖管理和下载</li>
   <li>创建移植仓库，实现<code class="highlighter-rouge">一人移植，多人共享</code>, 并且实现对其他开源项目进行自动化移植</li>
   <li>更多的插件开发</li>
-  <li>自动生成vs, xcode等工程文件</li>
 </ul>
 
 

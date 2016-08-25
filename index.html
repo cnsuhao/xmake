@@ -51,21 +51,21 @@
       
       <h2 id="simple-description">Simple description</h2>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>target("console")
-    set_kind("binary")
-    add_files("src/*.c") 
+<div class="language-lua highlighter-rouge"><pre class="highlight"><code>    <span class="n">target</span><span class="p">(</span><span class="s2">"console"</span><span class="p">)</span>
+        <span class="n">set_kind</span><span class="p">(</span><span class="s2">"binary"</span><span class="p">)</span>
+        <span class="n">add_files</span><span class="p">(</span><span class="s2">"src/*.c"</span><span class="p">)</span> 
 </code></pre>
 </div>
 
 <h2 id="build-project">Build project</h2>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>xmake
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>   <span class="nv">$ </span>xmake
 </code></pre>
 </div>
 
 <h2 id="run-target">Run target</h2>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>xmake run console
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>   <span class="nv">$ </span>xmake run console
 </code></pre>
 </div>
 
@@ -101,6 +101,15 @@
   <li>Assembly</li>
 </ul>
 
+<h2 id="builtin-plugins">Builtin Plugins</h2>
+
+<ul>
+  <li>Macros script plugin</li>
+  <li>Run the custom lua script plugin</li>
+  <li>Generate IDE project file plugin（makefile, vs2002 - vs2008, developing vs2010 .. ）</li>
+  <li>Generate doxygen document plugin</li>
+</ul>
+
 <h2 id="in-the-plans">In the plans</h2>
 
 <ul>
@@ -108,7 +117,6 @@
   <li>Download package automatically</li>
   <li>Create package repository for porting other third-party source codes, it’s goal is that one people port it and many people shared.</li>
   <li>Implement more plugins</li>
-  <li>Create more project files for IDE (.e.g vs, xcode ..)</li>
 </ul>
 
 
