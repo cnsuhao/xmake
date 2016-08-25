@@ -23,6 +23,11 @@ title: {{ site.name }}
    $ xmake run console
 ```
 
+## Debug target
+
+```bash
+   $ xmake run -d console
+```
 ## Support features
 
 * Tasks
@@ -63,3 +68,9 @@ title: {{ site.name }}
 * Create package repository for porting other third-party source codes, it's goal is that one people port it and many people shared.
 * Implement more plugins
 
+## Contacts
+
+* Email：[waruqi@gmail.com](mailto:waruqi@gmail.com)
+* Homepage：[TBOOX Open Source Project](http://www.tboox.org/cn)
+* Community：[TBOOX Open Source Community](http://www.tboox.org/forum)
+* ChatRoom：[![Join the chat at https://gitter.im/waruqi/tboox](https://badges.gitter.im/waruqi/tboox.svg)](https://gitter.im/waruqi/tboox?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)

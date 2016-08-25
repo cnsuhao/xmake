@@ -23,6 +23,12 @@ title: {{ site.name }}
    $ xmake run console
 ```
 
+## 调试程序
+
+```bash
+   $ xmake run -d console
+```
+
 ## 支持特性
 
 * Tasks
@@ -61,3 +67,12 @@ title: {{ site.name }}
 * 自动包依赖管理和下载
 * 创建移植仓库，实现`一人移植，多人共享`, 并且实现对其他开源项目进行自动化移植
 * 更多的插件开发
+
+## 联系方式
+
+* 邮箱：[waruqi@gmail.com](mailto:waruqi@gmail.com)
+* 主页：[TBOOX开源工程](http://www.tboox.org/cn)
+* 社区：[TBOOX开源社区](http://www.tboox.org/forum)
+* 聊天：[![Join the chat at https://gitter.im/waruqi/tboox](https://badges.gitter.im/waruqi/tboox.svg)](https://gitter.im/waruqi/tboox?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+* QQ群：343118190
+* 微信公众号：tboox-os
