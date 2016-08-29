@@ -59,7 +59,7 @@ title: {{ site.name }}
 
 * 宏记录脚本和回放插件
 * 加载自定义lua脚本插件
-* 生成IDE工程文件插件（makefile, vs2002 - vs2008, vs2010以上版本正在开发中）
+* 生成IDE工程文件插件（makefile, vs2002 - vs2015, ...）
 * 生成doxygen文档插件
 
 ## 后续计划

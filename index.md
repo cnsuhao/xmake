@@ -59,7 +59,7 @@ title: {{ site.name }}
 
 * Macros script plugin
 * Run the custom lua script plugin
-* Generate IDE project file plugin（makefile, vs2002 - vs2008, developing vs2010 .. ）
+* Generate IDE project file plugin（makefile, vs2002 - vs2015 .. ）
 * Generate doxygen document plugin
 
 ## In the plans
