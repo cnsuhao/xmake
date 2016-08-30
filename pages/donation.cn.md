@@ -30,7 +30,7 @@ xmake项目属于个人开源项目，它的发展需要您的帮助，如果您
 
 ## Paypal
 
-[![Paypal Me](/img/paypal.png)](http://paypal.me/tboox/10)
+[![Paypal Me](/img/paypal.png)](http://paypal.me/tboox/5)
 
 ## 捐助者名单
 

@@ -19,7 +19,7 @@ If you would like to support the development of xmake, welcome to donate to us.
 
 ## Paypal
 
-[![Paypal Me](/img/paypal.png)](http://paypal.me/tboox/10)
+[![Paypal Me](/img/paypal.png)](http://paypal.me/tboox/5)
 
 ## Books
 
