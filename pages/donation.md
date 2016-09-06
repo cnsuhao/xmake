@@ -15,15 +15,10 @@ If you would like to support the development of xmake, welcome to donate to us.
 * Download package automatically
 * Create package repository for porting other third-party source codes, it's goal is that one people port it and many people shared.
 * Implement more plugins
-* Create more project files for IDE (.e.g vs, xcode ..)
 
 ## Paypal
 
 [![Paypal Me](/img/paypal.png)](http://paypal.me/tboox/5)
-
-## Books
-
-Buy some books to support us: [Go to see it](http://www.tboox.org/book)
 
 ## Alipay 
 
