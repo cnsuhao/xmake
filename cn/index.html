@@ -51,27 +51,27 @@
       
       <h2 id="section">简单的工程描述</h2>
 
-<div class="language-lua highlighter-rouge"><pre class="highlight"><code>    <span class="n">target</span><span class="p">(</span><span class="s2">"console"</span><span class="p">)</span>
-        <span class="n">set_kind</span><span class="p">(</span><span class="s2">"binary"</span><span class="p">)</span>
-        <span class="n">add_files</span><span class="p">(</span><span class="s2">"src/*.c"</span><span class="p">)</span> 
+<div class="language-lua highlighter-rouge"><pre class="highlight"><code><span class="n">target</span><span class="p">(</span><span class="s2">"console"</span><span class="p">)</span>
+    <span class="n">set_kind</span><span class="p">(</span><span class="s2">"binary"</span><span class="p">)</span>
+    <span class="n">add_files</span><span class="p">(</span><span class="s2">"src/*.c"</span><span class="p">)</span> 
 </code></pre>
 </div>
 
 <h2 id="section-1">构建工程</h2>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>   <span class="nv">$ </span>xmake
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>xmake
 </code></pre>
 </div>
 
 <h2 id="section-2">运行目标</h2>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>   <span class="nv">$ </span>xmake run console
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>xmake run console
 </code></pre>
 </div>
 
 <h2 id="section-3">调试程序</h2>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>   <span class="nv">$ </span>xmake run -d console
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>xmake run -d console
 </code></pre>
 </div>
 
@@ -114,6 +114,7 @@
   <li>加载自定义lua脚本插件</li>
   <li>生成IDE工程文件插件（makefile, vs2002 - vs2015, …）</li>
   <li>生成doxygen文档插件</li>
+  <li>iOS app2ipa插件</li>
 </ul>
 
 <h2 id="section-8">后续计划</h2>
@@ -121,13 +122,13 @@
 <ul>
   <li>自动包依赖管理和下载</li>
   <li>创建移植仓库，实现<code class="highlighter-rouge">一人移植，多人共享</code>, 并且实现对其他开源项目进行自动化移植</li>
-  <li>更多的插件开发</li>
+  <li>更多的插件开发(Xcode工程生成插件)</li>
 </ul>
 
 <h2 id="section-9">联系方式</h2>
 
 <ul>
-  <li>邮箱：<a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#119;&#097;&#114;&#117;&#113;&#105;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#119;&#097;&#114;&#117;&#113;&#105;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></li>
+  <li>邮箱：<a href="mailto:waruqi@gmail.com">waruqi@gmail.com</a></li>
   <li>主页：<a href="http://www.tboox.org/cn">TBOOX开源工程</a></li>
   <li>社区：<a href="http://www.tboox.org/forum">TBOOX开源社区</a></li>
   <li>聊天：<a href="https://gitter.im/waruqi/tboox?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge"><img src="https://badges.gitter.im/waruqi/tboox.svg" alt="Join the chat at https://gitter.im/waruqi/tboox" /></a></li>
