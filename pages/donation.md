@@ -30,4 +30,7 @@ If you would like to support the development of xmake, welcome to donate to us.
 
 ## Supporters
 
+2016.11.10 
+
+* [lc-soft](https://github.com/lc-soft): ¥10
 

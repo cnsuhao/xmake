@@ -6,27 +6,27 @@ title: {{ site.name }}
 ## Simple description
 
 ```lua
-    target("console")
-        set_kind("binary")
-        add_files("src/*.c") 
+target("console")
+    set_kind("binary")
+    add_files("src/*.c") 
 ```
 
 ## Build project
 
 ```bash
-   $ xmake
+$ xmake
 ```
 
 ## Run target
 
 ```bash
-   $ xmake run console
+$ xmake run console
 ```
 
 ## Debug target
 
 ```bash
-   $ xmake run -d console
+$ xmake run -d console
 ```
 
 ## Support features
@@ -61,6 +61,7 @@ title: {{ site.name }}
 * Run the custom lua script plugin
 * Generate IDE project file plugin（makefile, vs2002 - vs2015 .. ）
 * Generate doxygen document plugin
+* Convert .app to .ipa plugin
 
 ## In the plans
 
