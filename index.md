@@ -63,12 +63,9 @@ $ xmake run -d console
 * Generate doxygen document plugin
 * Convert .app to .ipa plugin
 
-## In the plans
+## Examples
 
-* Manage package and dependencies
-* Download package automatically
-* Create package repository for porting other third-party source codes, it's goal is that one people port it and many people shared.
-* Implement more plugins
+![videodemo](http://tboox.org/static/img/xmake/videodemo.gif)
 
 ## Contacts
 

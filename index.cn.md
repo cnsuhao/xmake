@@ -63,11 +63,9 @@ $ xmake run -d console
 * 生成doxygen文档插件
 * iOS app2ipa插件
 
-## 后续计划
+## 使用演示
 
-* 自动包依赖管理和下载
-* 创建移植仓库，实现`一人移植，多人共享`, 并且实现对其他开源项目进行自动化移植
-* 更多的插件开发(Xcode工程生成插件)
+![videodemo](http://tboox.org/static/img/xmake/videodemo.gif)
 
 ## 联系方式
 

@@ -9,13 +9,6 @@ The xmake projects is a personal open source projects, their development need yo
 
 If you would like to support the development of xmake, welcome to donate to us.
 
-## In the plans
-
-* Manage package and dependencies
-* Download package automatically
-* Create package repository for porting other third-party source codes, it's goal is that one people port it and many people shared.
-* Implement more plugins
-
 ## Paypal
 
 [![Paypal Me](/img/paypal.png)](http://paypal.me/tboox/5)
