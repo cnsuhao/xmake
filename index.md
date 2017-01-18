@@ -65,7 +65,7 @@ $ xmake run -d console
 
 ## Examples
 
-![videodemo](http://tboox.org/static/img/xmake/videodemo.gif)
+![usage_demo](http://tboox.org/static/img/xmake/usage_demo.gif)
 
 ## Contacts
 
